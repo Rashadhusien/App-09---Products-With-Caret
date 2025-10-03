@@ -398,3 +398,30 @@ function filterByCategory(category) {
     displayProducts(category)
   }
 }
+
+function checkOut() {
+  if (cart.length === 0) {
+    return
+  }
+
+  const subtotal = cart.reduce((total, item) => {
+    const itemPrice = item.unitPrice || item.price
+    return total + itemPrice * item.quantity
+  }, 0)
+  const total = subtotal + 20
+
+  const orderNumber =
+    '#' + Math.random().toString(36).substr(2, 9).toUpperCase()
+
+  const orderData = {
+    orderNumber,
+    items: cart.length,
+    total: `$${total.toFixed(2)}`
+  }
+  localStorage.setItem('lastOrder', JSON.stringify(orderData))
+
+  cart = []
+  localStorage.setItem('cart', JSON.stringify(cart))
+
+  window.location.href = 'checkout-success.html'
+}

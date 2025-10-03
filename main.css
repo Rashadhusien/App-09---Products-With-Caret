@@ -88,6 +88,7 @@ body {
   position: relative;
   overflow: hidden;
   font-family: inherit;
+  white-space: nowrap;
 }
 
 .category-btn::before {
@@ -131,12 +132,56 @@ body {
 /* Responsive adjustments */
 @media (max-width: 768px) {
   .categories-container {
-    gap: 8px;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    gap: 10px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding: 12px 0;
+    margin: 0 -16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+
+  .categories-container::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Add fade effect on edges */
+  .page-header {
+    position: relative;
+  }
+
+  .page-header::after {
+    content: '';
+    position: absolute;
+    bottom: 24px;
+    right: 0;
+    width: 60px;
+    height: 52px;
+    background: linear-gradient(to left, var(--bg), transparent);
+    pointer-events: none;
+    z-index: 1;
   }
 
   .category-btn {
-    padding: 8px 16px;
-    font-size: 13px;
+    padding: 10px 20px;
+    font-size: 14px;
+    flex-shrink: 0;
+    border: 2px solid var(--border);
+  }
+
+  .category-btn.active {
+    border-width: 2px;
+    box-shadow: 0 4px 16px rgba(99, 102, 241, 0.5);
+    transform: scale(1.05);
+  }
+
+  .category-btn:active {
+    transform: scale(0.98);
   }
 }
 
