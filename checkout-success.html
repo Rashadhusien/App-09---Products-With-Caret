@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="main.css" />
+    <title>Order Success - Products Store</title>
+    <style>
+      .success-container {
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 24px;
+      }
+
+      .success-card {
+        background: var(--card);
+        border: 1px solid var(--border);
+        border-radius: 24px;
+        padding: 48px;
+        max-width: 500px;
+        width: 100%;
+        text-align: center;
+        box-shadow: 0 20px 60px var(--shadow-lg);
+        animation: successSlideIn 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+      }
+
+      @keyframes successSlideIn {
+        from {
+          opacity: 0;
+          transform: translateY(30px) scale(0.95);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0) scale(1);
+        }
+      }
+
+      .success-icon {
+        width: 80px;
+        height: 80px;
+        margin: 0 auto 24px;
+        background: linear-gradient(135deg, var(--success), #14b8a6);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        animation: successPulse 0.8s ease-out;
+      }
+
+      @keyframes successPulse {
+        0% {
+          transform: scale(0);
+          opacity: 0;
+        }
+        50% {
+          transform: scale(1.1);
+        }
+        100% {
+          transform: scale(1);
+          opacity: 1;
+        }
+      }
+
+      .success-icon svg {
+        width: 40px;
+        height: 40px;
+        stroke: white;
+        stroke-width: 3;
+      }
+
+      .success-title {
+        font-size: 32px;
+        font-weight: 700;
+        margin-bottom: 16px;
+        color: var(--text);
+      }
+
+      .success-message {
+        font-size: 16px;
+        color: var(--text-secondary);
+        margin-bottom: 32px;
+        line-height: 1.6;
+      }
+
+      .order-details {
+        background: var(--bg);
+        border: 1px solid var(--border);
+        border-radius: 16px;
+        padding: 24px;
+        margin-bottom: 32px;
+        text-align: left;
+      }
+
+      .order-detail-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 12px 0;
+        border-bottom: 1px solid var(--border);
+      }
+
+      .order-detail-row:last-child {
+        border-bottom: none;
+        font-weight: 600;
+        font-size: 18px;
+      }
+
+      .order-detail-label {
+        color: var(--text-secondary);
+      }
+
+      .order-detail-value {
+        color: var(--text);
+        font-weight: 500;
+      }
+
+      .success-actions {
+        display: flex;
+        gap: 12px;
+        flex-direction: column;
+      }
+
+      .btn {
+        padding: 14px 32px;
+        border: none;
+        border-radius: 12px;
+        font-size: 16px;
+        font-weight: 600;
+        cursor: pointer;
+        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        font-family: inherit;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+      }
+
+      .btn-primary {
+        background: linear-gradient(135deg, var(--accent), var(--accent-2));
+        color: white;
+        box-shadow: 0 4px 16px rgba(99, 102, 241, 0.3);
+      }
+
+      .btn-primary:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 6px 20px rgba(99, 102, 241, 0.4);
+      }
+
+      .btn-secondary {
+        background: var(--card);
+        border: 1px solid var(--border);
+        color: var(--text);
+      }
+
+      .btn-secondary:hover {
+        border-color: var(--accent);
+        background: var(--card-hover);
+      }
+
+      @media (max-width: 640px) {
+        .success-card {
+          padding: 32px 24px;
+        }
+
+        .success-title {
+          font-size: 24px;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="success-container">
+      <div class="success-card">
+        <div class="success-icon">
+          <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <polyline points="20 6 9 17 4 12"></polyline>
+          </svg>
+        </div>
+
+        <h1 class="success-title">Order Successful!</h1>
+        <p class="success-message">
+          Thank you for your purchase. Your order has been confirmed and will
+          be shipped soon.
+        </p>
+
+        <div class="order-details">
+          <div class="order-detail-row">
+            <span class="order-detail-label">Order Number</span>
+            <span class="order-detail-value" id="order-number">#12345</span>
+          </div>
+          <div class="order-detail-row">
+            <span class="order-detail-label">Items</span>
+            <span class="order-detail-value" id="order-items">0</span>
+          </div>
+          <div class="order-detail-row">
+            <span class="order-detail-label">Total Amount</span>
+            <span class="order-detail-value" id="order-total">$0.00</span>
+          </div>
+        </div>
+
+        <div class="success-actions">
+          <a href="index.html" class="btn btn-primary">
+            <svg
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <line x1="19" y1="12" x2="5" y2="12" />
+              <polyline points="12 19 5 12 12 5" />
+            </svg>
+            Continue Shopping
+          </a>
+          <button class="btn btn-secondary" onclick="window.print()">
+            Print Receipt
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      // Get order data from localStorage
+      const orderData = JSON.parse(localStorage.getItem('lastOrder'))
+
+      if (orderData) {
+        document.getElementById('order-number').textContent =
+          orderData.orderNumber
+        document.getElementById('order-items').textContent = orderData.items
+        document.getElementById('order-total').textContent = orderData.total
+      }
+
+      // Clear order data after displaying
+      setTimeout(() => {
+        localStorage.removeItem('lastOrder')
+      }, 1000)
+    </script>
+  </body>
+</html>

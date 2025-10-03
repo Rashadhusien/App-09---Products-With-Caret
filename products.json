@@ -1,0 +1,162 @@
+[
+  {
+    "id": "p001",
+    "title": "Aurora Wireless Headphones",
+    "image": "https://picsum.photos/seed/p001/400/300",
+    "description": "Over-ear wireless headphones with active noise cancellation and 30-hour battery life.",
+    "category": "electronics",
+    "price": 129.99
+  },
+  {
+    "id": "p002",
+    "title": "Nimbus Smartwatch",
+    "image": "https://picsum.photos/seed/p002/400/300",
+    "description": "Fitness smartwatch with heart-rate monitoring, GPS, and sleep tracking.",
+    "category": "electronics",
+    "price": 199.0
+  },
+  {
+    "id": "p003",
+    "title": "EverComfort Cotton T-Shirt (Blue)",
+    "image": "https://picsum.photos/seed/p003/400/300",
+    "description": "Soft 100% cotton t-shirt, regular fit. Machine washable and colorfast.",
+    "category": "clothing",
+    "price": 18.5
+  },
+  {
+    "id": "p004",
+    "title": "Trailblaze Running Shoes",
+    "image": "https://picsum.photos/seed/p004/400/300",
+    "description": "Lightweight running shoes with breathable mesh and responsive foam sole.",
+    "category": "sports",
+    "price": 89.99
+  },
+  {
+    "id": "p005",
+    "title": "Lumen Desk Lamp",
+    "image": "https://picsum.photos/seed/p005/400/300",
+    "description": "Adjustable LED desk lamp with touch dimmer and USB charging port.",
+    "category": "home",
+    "price": 34.0
+  },
+  {
+    "id": "p006",
+    "title": "Bistro Ceramic Mug Set (4)",
+    "image": "https://picsum.photos/seed/p006/400/300",
+    "description": "Set of four 350ml ceramic mugs with matte finish and dishwasher safe.",
+    "category": "home",
+    "price": 24.99
+  },
+  {
+    "id": "p007",
+    "title": "PixelPad 10.1\" Tablet",
+    "image": "https://picsum.photos/seed/p007/400/300",
+    "description": "10.1 inch Android tablet with 64GB storage and 8MP camera.",
+    "category": "electronics",
+    "price": 149.49
+  },
+  {
+    "id": "p008",
+    "title": "Orbit Bluetooth Speaker",
+    "image": "https://picsum.photos/seed/p008/400/300",
+    "description": "Portable waterproof Bluetooth speaker with 12-hour playtime.",
+    "category": "electronics",
+    "price": 59.5
+  },
+  {
+    "id": "p009",
+    "title": "Haven Throw Blanket",
+    "image": "https://picsum.photos/seed/p009/400/300",
+    "description": "Cozy woven throw blanket — 130x170cm — perfect for sofas and beds.",
+    "category": "home",
+    "price": 42.0
+  },
+  {
+    "id": "p010",
+    "title": "Scribe Notebook — A5, 200 pages",
+    "image": "https://picsum.photos/seed/p010/400/300",
+    "description": "Hardcover A5 notebook with dotted pages and elastic closure.",
+    "category": "office",
+    "price": 12.75
+  },
+  {
+    "id": "p011",
+    "title": "GlowFace Daily Moisturizer 50ml",
+    "image": "https://picsum.photos/seed/p011/400/300",
+    "description": "Lightweight facial moisturizer with hyaluronic acid and SPF 15.",
+    "category": "beauty",
+    "price": 22.0
+  },
+  {
+    "id": "p012",
+    "title": "Kids’ Puzzle — 300 pcs",
+    "image": "https://picsum.photos/seed/p012/400/300",
+    "description": "Colorful 300-piece jigsaw puzzle designed for ages 6+.",
+    "category": "toys",
+    "price": 14.99
+  },
+  {
+    "id": "p013",
+    "title": "Classic Vinyl Record — Jazz Nights",
+    "image": "https://picsum.photos/seed/p013/400/300",
+    "description": "180g vinyl record with remastered jazz classics.",
+    "category": "music",
+    "price": 27.5
+  },
+  {
+    "id": "p014",
+    "title": "EcoBrew Stainless Travel Mug 500ml",
+    "image": "https://picsum.photos/seed/p014/400/300",
+    "description": "Insulated travel mug that keeps drinks hot for 8 hours and cold for 12.",
+    "category": "kitchen",
+    "price": 21.0
+  },
+  {
+    "id": "p015",
+    "title": "Arcadia Graphic Hoodie",
+    "image": "https://picsum.photos/seed/p015/400/300",
+    "description": "Unisex hoodie with front pocket and soft brushed interior.",
+    "category": "clothing",
+    "price": 39.99
+  },
+  {
+    "id": "p016",
+    "title": "ProChef Knife Set (3 pcs)",
+    "image": "https://picsum.photos/seed/p016/400/300",
+    "description": "High-carbon stainless steel knives with ergonomic handles and sheath.",
+    "category": "kitchen",
+    "price": 69.0
+  },
+  {
+    "id": "p017",
+    "title": "Stellar Action Camera",
+    "image": "https://picsum.photos/seed/p017/400/300",
+    "description": "4K action camera with wide-angle lens and waterproof housing.",
+    "category": "electronics",
+    "price": 109.99
+  },
+  {
+    "id": "p018",
+    "title": "Minimalist Wall Clock",
+    "image": "https://picsum.photos/seed/p018/400/300",
+    "description": "Silent sweep wall clock with glass face and slim aluminum frame.",
+    "category": "home",
+    "price": 29.5
+  },
+  {
+    "id": "p019",
+    "title": "Beginner’s Guide to JavaScript (Book)",
+    "image": "https://picsum.photos/seed/p019/400/300",
+    "description": "A practical guide for newcomers with hands-on exercises and projects.",
+    "category": "books",
+    "price": 16.0
+  },
+  {
+    "id": "p020",
+    "title": "Yoga Mat — 6mm",
+    "image": "https://picsum.photos/seed/p020/400/300",
+    "description": "Non-slip eco-friendly yoga mat with carrying strap.",
+    "category": "sports",
+    "price": 25.0
+  }
+]
