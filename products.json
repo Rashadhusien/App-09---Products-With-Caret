@@ -1,162 +1,162 @@
 [
   {
-    "id": "p001",
-    "title": "Aurora Wireless Headphones",
-    "image": "https://picsum.photos/seed/p001/400/300",
-    "description": "Over-ear wireless headphones with active noise cancellation and 30-hour battery life.",
-    "category": "electronics",
-    "price": 129.99
+    "id": 1,
+    "title": "Wireless Mouse",
+    "description": "A compact and ergonomic wireless mouse with adjustable DPI settings.",
+    "image": "imgs/mouse.jfif",
+    "category": "Electronics",
+    "price": 19.99
   },
   {
-    "id": "p002",
-    "title": "Nimbus Smartwatch",
-    "image": "https://picsum.photos/seed/p002/400/300",
-    "description": "Fitness smartwatch with heart-rate monitoring, GPS, and sleep tracking.",
-    "category": "electronics",
-    "price": 199.0
-  },
-  {
-    "id": "p003",
-    "title": "EverComfort Cotton T-Shirt (Blue)",
-    "image": "https://picsum.photos/seed/p003/400/300",
-    "description": "Soft 100% cotton t-shirt, regular fit. Machine washable and colorfast.",
-    "category": "clothing",
-    "price": 18.5
-  },
-  {
-    "id": "p004",
-    "title": "Trailblaze Running Shoes",
-    "image": "https://picsum.photos/seed/p004/400/300",
-    "description": "Lightweight running shoes with breathable mesh and responsive foam sole.",
-    "category": "sports",
+    "id": 2,
+    "title": "Mechanical Keyboard",
+    "description": "RGB backlit mechanical keyboard with blue switches for tactile typing experience.",
+    "image": "imgs/keyboard2.jfif",
+    "category": "Electronics",
     "price": 89.99
   },
   {
-    "id": "p005",
-    "title": "Lumen Desk Lamp",
-    "image": "https://picsum.photos/seed/p005/400/300",
-    "description": "Adjustable LED desk lamp with touch dimmer and USB charging port.",
-    "category": "home",
-    "price": 34.0
+    "id": 3,
+    "title": "Bluetooth Headphones",
+    "description": "Noise-cancelling over-ear headphones with 30-hour battery life.",
+    "image": "imgs/headphone.jfif",
+    "category": "Electronics",
+    "price": 129.99
   },
   {
-    "id": "p006",
-    "title": "Bistro Ceramic Mug Set (4)",
-    "image": "https://picsum.photos/seed/p006/400/300",
-    "description": "Set of four 350ml ceramic mugs with matte finish and dishwasher safe.",
-    "category": "home",
-    "price": 24.99
+    "id": 4,
+    "title": "Smart Watch",
+    "description": "Fitness tracking smartwatch with heart rate monitor and GPS.",
+    "image": "imgs/watch.jfif",
+    "category": "Wearables",
+    "price": 249.99
   },
   {
-    "id": "p007",
-    "title": "PixelPad 10.1\" Tablet",
-    "image": "https://picsum.photos/seed/p007/400/300",
-    "description": "10.1 inch Android tablet with 64GB storage and 8MP camera.",
-    "category": "electronics",
-    "price": 149.49
-  },
-  {
-    "id": "p008",
-    "title": "Orbit Bluetooth Speaker",
-    "image": "https://picsum.photos/seed/p008/400/300",
-    "description": "Portable waterproof Bluetooth speaker with 12-hour playtime.",
-    "category": "electronics",
-    "price": 59.5
-  },
-  {
-    "id": "p009",
-    "title": "Haven Throw Blanket",
-    "image": "https://picsum.photos/seed/p009/400/300",
-    "description": "Cozy woven throw blanket — 130x170cm — perfect for sofas and beds.",
-    "category": "home",
-    "price": 42.0
-  },
-  {
-    "id": "p010",
-    "title": "Scribe Notebook — A5, 200 pages",
-    "image": "https://picsum.photos/seed/p010/400/300",
-    "description": "Hardcover A5 notebook with dotted pages and elastic closure.",
-    "category": "office",
-    "price": 12.75
-  },
-  {
-    "id": "p011",
-    "title": "GlowFace Daily Moisturizer 50ml",
-    "image": "https://picsum.photos/seed/p011/400/300",
-    "description": "Lightweight facial moisturizer with hyaluronic acid and SPF 15.",
-    "category": "beauty",
-    "price": 22.0
-  },
-  {
-    "id": "p012",
-    "title": "Kids’ Puzzle — 300 pcs",
-    "image": "https://picsum.photos/seed/p012/400/300",
-    "description": "Colorful 300-piece jigsaw puzzle designed for ages 6+.",
-    "category": "toys",
-    "price": 14.99
-  },
-  {
-    "id": "p013",
-    "title": "Classic Vinyl Record — Jazz Nights",
-    "image": "https://picsum.photos/seed/p013/400/300",
-    "description": "180g vinyl record with remastered jazz classics.",
-    "category": "music",
-    "price": 27.5
-  },
-  {
-    "id": "p014",
-    "title": "EcoBrew Stainless Travel Mug 500ml",
-    "image": "https://picsum.photos/seed/p014/400/300",
-    "description": "Insulated travel mug that keeps drinks hot for 8 hours and cold for 12.",
-    "category": "kitchen",
-    "price": 21.0
-  },
-  {
-    "id": "p015",
-    "title": "Arcadia Graphic Hoodie",
-    "image": "https://picsum.photos/seed/p015/400/300",
-    "description": "Unisex hoodie with front pocket and soft brushed interior.",
-    "category": "clothing",
-    "price": 39.99
-  },
-  {
-    "id": "p016",
-    "title": "ProChef Knife Set (3 pcs)",
-    "image": "https://picsum.photos/seed/p016/400/300",
-    "description": "High-carbon stainless steel knives with ergonomic handles and sheath.",
-    "category": "kitchen",
-    "price": 69.0
-  },
-  {
-    "id": "p017",
-    "title": "Stellar Action Camera",
-    "image": "https://picsum.photos/seed/p017/400/300",
-    "description": "4K action camera with wide-angle lens and waterproof housing.",
-    "category": "electronics",
+    "id": 5,
+    "title": "Portable SSD",
+    "description": "1TB external solid-state drive with USB-C connectivity and fast transfer speeds.",
+    "image": "imgs/portablessd.jfif",
+    "category": "Storage",
     "price": 109.99
   },
   {
-    "id": "p018",
-    "title": "Minimalist Wall Clock",
-    "image": "https://picsum.photos/seed/p018/400/300",
-    "description": "Silent sweep wall clock with glass face and slim aluminum frame.",
-    "category": "home",
-    "price": 29.5
+    "id": 6,
+    "title": "Webcam HD",
+    "description": "1080p webcam with built-in microphone and auto-focus for video calls.",
+    "image": "imgs/headphone2.jfif",
+    "category": "Electronics",
+    "price": 59.99
   },
   {
-    "id": "p019",
-    "title": "Beginner’s Guide to JavaScript (Book)",
-    "image": "https://picsum.photos/seed/p019/400/300",
-    "description": "A practical guide for newcomers with hands-on exercises and projects.",
-    "category": "books",
-    "price": 16.0
+    "id": 7,
+    "title": "USB-C Hub",
+    "description": "7-in-1 hub with HDMI, USB 3.0, SD card reader, and power delivery.",
+    "image": "imgs/usbc.jfif",
+    "category": "Accessories",
+    "price": 39.99
   },
   {
-    "id": "p020",
-    "title": "Yoga Mat — 6mm",
-    "image": "https://picsum.photos/seed/p020/400/300",
-    "description": "Non-slip eco-friendly yoga mat with carrying strap.",
-    "category": "sports",
-    "price": 25.0
+    "id": 8,
+    "title": "Wireless Earbuds",
+    "description": "True wireless earbuds with charging case and touch controls.",
+    "image": "imgs/airpods.jfif",
+    "category": "Electronics",
+    "price": 79.99
+  },
+  {
+    "id": 9,
+    "title": "Gaming Mouse Pad",
+    "description": "Extra-large RGB mouse pad with non-slip rubber base.",
+    "image": "imgs/gamingpad.webp",
+    "category": "Accessories",
+    "price": 24.99
+  },
+  {
+    "id": 10,
+    "title": "rgb mouse",
+    "description": "RGB gaming mouse with adjustable DPI, customizable lighting, and ergonomic design.",
+    "image": "imgs/mouse.jpg",
+    "category": "Accessories",
+    "price": 34.99
+  },
+  {
+    "id": 11,
+    "title": "Phone Stand",
+    "description": "Foldable phone holder with adjustable viewing angles.",
+    "image": "imgs/stand.jpg",
+    "category": "Accessories",
+    "price": 12.99
+  },
+  {
+    "id": 12,
+    "title": "Power Bank",
+    "description": "20000mAh portable charger with dual USB ports and fast charging.",
+    "image": "imgs/powerbank.jfif",
+    "category": "Electronics",
+    "price": 45.99
+  },
+  {
+    "id": 13,
+    "title": "Monitor Light Bar",
+    "description": "LED desk lamp that clips onto monitor with adjustable brightness.",
+    "image": "imgs/monitorlightbar.jfif",
+    "category": "Lighting",
+    "price": 49.99
+  },
+  {
+    "id": 14,
+    "title": "Cable Organizer",
+    "description": "Silicone cable management clips set of 10 for desk organization.",
+    "image": "imgs/cableorganizer.webp",
+    "category": "Accessories",
+    "price": 9.99
+  },
+  {
+    "id": 15,
+    "title": "Bluetooth Speaker",
+    "description": "Waterproof portable speaker with 360-degree sound and 12-hour battery.",
+    "image": "imgs/speaker.jfif",
+    "category": "Electronics",
+    "price": 54.99
+  },
+  {
+    "id": 16,
+    "title": "Ring Light",
+    "description": "10-inch LED ring light with tripod stand for photography and videos.",
+    "image": "imgs/ringlight.jpg",
+    "category": "Photography",
+    "price": 39.99
+  },
+  {
+    "id": 17,
+    "title": "Desk Mat",
+    "description": "Premium leather desk pad with stitched edges for workspace protection.",
+    "image": "imgs/deskmat.webp",
+    "category": "Accessories",
+    "price": 29.99
+  },
+  {
+    "id": 18,
+    "title": "HDMI Cable",
+    "description": "6ft 4K HDMI cable with gold-plated connectors and braided design.",
+    "image": "imgs/hdmi.jpg",
+    "category": "Cables",
+    "price": 14.99
+  },
+  {
+    "id": 19,
+    "title": "Gaming Controller",
+    "description": "Wireless controller with programmable buttons and vibration feedback.",
+    "image": "imgs/controller.jfif",
+    "category": "Gaming",
+    "price": 69.99
+  },
+  {
+    "id": 20,
+    "title": "Microphone Arm",
+    "description": "Adjustable boom arm with cable management for studio microphones.",
+    "image": "imgs/microphone.jfif",
+    "category": "Audio",
+    "price": 44.99
   }
 ]
